@@ -1,87 +1,55 @@
-# Free Fire Tournament Platform
+# FFSquads
 
-Welcome to the Free Fire Tournament Platform! This web application allows players to register as teams, participate in tournaments, and compete for exciting prize money. The platform is designed to provide a seamless experience for organizing and joining Free Fire competitions.
+FFSquads is a full-stack application designed to manage and facilitate squad-based activities. The project consists of a frontend built with React and Vite, and a backend powered by Node.js and Express.
 
-## Features
+## Project Description
 
-- **Team Registration**: Players can create a team, choose a team name, and register their squad members.
-- **Player Profiles**: Each player can provide details such as their Free Fire ID and mobile number.
-- **Tournaments and Matches**: Teams can join available tournaments, view match schedules, and track progress.
-- **Payment Integration**: Secure payment options for tournament registration using UPI (PhonePe, Google Pay, etc.).
-- **Prize Money**: Winners receive prize money based on the tournament structure.
+The FFSquads application allows users to create, manage, and participate in various squad activities. It provides a user-friendly interface for managing registrations, viewing contests, and interacting with other users. The backend handles data storage, authentication, and business logic, ensuring a seamless experience for users.
 
-## Getting Started
+## Technologies Used
 
-Follow these steps to set up the project locally:
+### Frontend
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A build tool that provides a fast development environment with Hot Module Replacement (HMR).
+- **ESLint**: A static code analysis tool for identifying problematic patterns in JavaScript code.
 
-### Prerequisites
+### Backend
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Express**: A web framework for Node.js that simplifies building web applications.
+- **Mongoose**: An ODM library for MongoDB, providing a schema-based solution to model application data.
+- **dotenv**: A module to load environment variables from a `.env` file.
+- **jsonwebtoken**: A library for creating and verifying JSON Web Tokens for authentication.
+- **argon2**: A password hashing library for secure password storage.
+- **multer**: A middleware for handling file uploads.
+- **stripe**: A library for integrating payment processing with Stripe.
+- **cors**: A package to enable Cross-Origin Resource Sharing.
 
-- Node.js
-- MongoDB
-- Git
+## Installation
 
-### Installation
+To install the project dependencies, run the following command in both the frontend and backend directories:
 
-1. Clone the repository:
+```bash
+npm install
+```
 
-   ```bash
-   git clone <repository-link>
-   ```
+## Usage
 
-2. Navigate to the project directory:
+To start the backend server, navigate to the backend directory and run:
 
-   ```bash
-   cd FREEFIRE
-   ```
+```bash
+npm run server
+```
 
-3. Install dependencies:
+For the frontend, navigate to the frontend directory and run:
 
-   ```bash
-   npm install
-   ```
-
-4. Set up the environment variables (e.g., MongoDB connection string, payment gateway details) in a `.env` file.
-
-5. Start the server:
-
-   ```bash
-   cd server
-   node index.js
-   ```
-
-6. Open the application in your browser:
-
-   ```
-   http://localhost:5000
-   ```
-
-### Usage
-
-- **Create a Team**: Go to the registration page, enter team details, and add players.
-- **Join a Tournament**: Browse upcoming tournaments and join with your registered team.
-- **Payment**: Complete the registration by making a payment through the integrated UPI gateway.
-
-## Tech Stack
-
-- **Frontend**: HTML, CSS, JavaScript (React/Next.js)
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Payment Integration**: UPI via PhonePe, Google Pay, etc.
+```bash
+npm run dev
+```
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Create a pull request.
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or features you'd like to add.
 
 ## License
 
-This project is licensed under the MIT License.
-
-## Contact
-
-For any queries or support, feel free to reach out at [poladharmat887@gmail.com](mailto:poladharmat887@gmail.com).
+This project is licensed under the ISC License.

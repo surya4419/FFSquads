@@ -1,10 +1,9 @@
 .header{
-    height: 15.5vw;
-    width: px;
-    margin: 20px 0px;
+    height:280px;
+    width: 98%;
+    margin: 20px;
     background: url("../banner2.jpg") no-repeat;
-    background-size: cover;
-    
+    border-radius:10px;
     position: relative;
     display:flex;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
